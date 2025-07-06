@@ -1,17 +1,17 @@
 # 🚀 TERA Engine
 
-**TERA** é um mini motor de jogos feito em Java que permite criar e rodar scripts de jogo com comandos simples como `Print()` e `TeraPlus = Window()`. Ideal para aprender lógica de programação e brincar de criar jogos com interface gráfica!
+**TERA** é um mini motor de execução de scripts por texto com interface gráfica, ideal para criar comandos personalizados e visualizar saídas de forma simples e intuitiva.
 
 ---
 
 ## 🧠 O que é o TERA?
 
-TERA é um motor onde você escreve comandos de texto e vê ações acontecendo:
+TERA é uma ferramenta onde você escreve comandos em texto e vê ações acontecendo na tela:
 
-- 📄 Salva projetos como arquivos `.tera`
+- 📄 Salva arquivos no formato `.tera`
 - 🖥️ Interpreta comandos como `Print("Olá")`
 - 🪟 Cria janelas com `TeraPlus = Window(Altura.Largura)`
-- 🧩 Extensível — mais comandos podem ser adicionados!
+- 🧩 Fácil de entender e expandir
 
 ---
 
@@ -19,5 +19,5 @@ TERA é um motor onde você escreve comandos de texto e vê ações acontecendo:
 
 ```tera
 Import = TeraPlus
-TeraPlus = Window(400.600)
-Print("Bem-vindo ao meu jogo!")
+TeraPlus = Window(300.500)
+Print("Bem-vindo ao TERA Engine!")
